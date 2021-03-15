@@ -29,7 +29,7 @@ struct ContentView: View {
                             .cornerRadius(16)
                             .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray))
                         // Find Button
-                        let view = ListView()
+                        let view = ListView(zipcode: zipcodeBindManager.text)
                         NavigationLink(destination: view) {
                             Text("Find")
                                 .frame(minWidth: 100, maxWidth: 100, minHeight: 50, maxHeight: 50, alignment: .center)

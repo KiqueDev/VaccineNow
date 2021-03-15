@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailView: View {
     let station: Station
     var body: some View {
-        Text("\(station.id)")
+        Text("\(station.guid)")
         Text(station.name).font(.largeTitle)
     }
 }
