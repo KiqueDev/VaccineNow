@@ -27,10 +27,10 @@ struct ListView: View {
             NavigationLink(destination: DetailView(station: station)) {
                 HStack {
                     VStack(alignment: .leading) {
-                        Text("\(station.name)").fontWeight(.bold)
+                        Text(station.name).fontWeight(.bold)
                             .font(.title2)
                         Spacer()
-                        Text("\(station.address)")
+                        Text(station.address)
                     }
                 }.navigationBarTitle(Text("Stations"))
             }
