@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CD78AE56258178B70089F798 /* ZipcodeBindManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */; };
 		CD78AE5C2583EC040089F798 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78AE5B2583EC040089F798 /* MapView.swift */; };
+		CD91959B25FFBD59007DC224 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91959A25FFBD59007DC224 /* ListView.swift */; };
+		CD9195A125FFC443007DC224 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9195A025FFC443007DC224 /* DetailView.swift */; };
 		CD9DA5F4257EA9700063EA39 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5F3257EA9700063EA39 /* Tests_iOS.swift */; };
 		CD9DA601257EA9700063EA39 /* VaccineNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5D8257EA9700063EA39 /* VaccineNowApp.swift */; };
 		CD9DA603257EA9700063EA39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5D9257EA9700063EA39 /* ContentView.swift */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipcodeBindManager.swift; sourceTree = "<group>"; };
 		CD78AE5B2583EC040089F798 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CD91959A25FFBD59007DC224 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CD9195A025FFC443007DC224 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		CD9DA5D8257EA9700063EA39 /* VaccineNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineNowApp.swift; sourceTree = "<group>"; };
 		CD9DA5D9257EA9700063EA39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD9DA5DA257EA9700063EA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				CD9DA5D8257EA9700063EA39 /* VaccineNowApp.swift */,
 				CD9DA5D9257EA9700063EA39 /* ContentView.swift */,
 				CD78AE5B2583EC040089F798 /* MapView.swift */,
+				CD91959A25FFBD59007DC224 /* ListView.swift */,
+				CD9195A025FFC443007DC224 /* DetailView.swift */,
 				CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */,
 				CD9DA5DA257EA9700063EA39 /* Assets.xcassets */,
 				CD9DA62125813BE20063EA39 /* Launch Screen.storyboard */,
@@ -231,7 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9DA603257EA9700063EA39 /* ContentView.swift in Sources */,
+				CD9195A125FFC443007DC224 /* DetailView.swift in Sources */,
 				CD78AE5C2583EC040089F798 /* MapView.swift in Sources */,
+				CD91959B25FFBD59007DC224 /* ListView.swift in Sources */,
 				CD9DA601257EA9700063EA39 /* VaccineNowApp.swift in Sources */,
 				CD78AE56258178B70089F798 /* ZipcodeBindManager.swift in Sources */,
 			);
