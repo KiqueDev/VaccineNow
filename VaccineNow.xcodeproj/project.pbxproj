@@ -16,6 +16,7 @@
 		CD9DA603257EA9700063EA39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5D9257EA9700063EA39 /* ContentView.swift */; };
 		CD9DA605257EA9700063EA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9DA5DA257EA9700063EA39 /* Assets.xcassets */; };
 		CD9DA62225813BE20063EA39 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9DA62125813BE20063EA39 /* Launch Screen.storyboard */; };
+		CDD50CBE26050D7D00312237 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD50CBD26050D7D00312237 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CD9DA5FE257EA9700063EA39 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CD9DA600257EA9700063EA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9DA62125813BE20063EA39 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CDD50CBD26050D7D00312237 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */,
+				CDD50CBD26050D7D00312237 /* LocationManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				CD9DA603257EA9700063EA39 /* ContentView.swift in Sources */,
 				CD9195A125FFC443007DC224 /* DetailView.swift in Sources */,
 				CD78AE5C2583EC040089F798 /* MapView.swift in Sources */,
+				CDD50CBE26050D7D00312237 /* LocationManager.swift in Sources */,
 				CD91959B25FFBD59007DC224 /* ListView.swift in Sources */,
 				CD9DA601257EA9700063EA39 /* VaccineNowApp.swift in Sources */,
 				CD78AE56258178B70089F798 /* ZipcodeBindManager.swift in Sources */,
