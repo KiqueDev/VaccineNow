@@ -31,7 +31,9 @@ struct DetailView: View {
             Map(coordinateRegion: $region, showsUserLocation: true,
                 annotationItems: [marker]) { marker in
                 marker.location
-            }.edgesIgnoringSafeArea(.all).onAppear(){
+            }
+            .edgesIgnoringSafeArea(.all)
+            .onAppear(){
                 setLocations()
             }
         }

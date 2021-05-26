@@ -9,12 +9,7 @@ import Foundation
 import Contacts
 import CoreLocation
 
-public struct Location {
-    var lat: Double
-    var long: Double
-}
-
-public class LocationManager {
+class LocationManager {
     static func convertZip(zip: String, completion: @escaping (Location?) -> Void) {
         let geocoder = CLGeocoder()
         let postalAddress = CNMutablePostalAddress()
@@ -35,5 +30,4 @@ public class LocationManager {
         let divisor = pow(10.0, Double(2))
         return (value * divisor).rounded() / divisor
     }
-    
 }

@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                VStack(spacing: 5) {
+                VStack {
                     Spacer()
                     // Label Title
                     Text("Find your nearest Vaccine Stations")
@@ -24,25 +24,28 @@ struct ContentView: View {
                         TextField("Enter zipcode", text: $zipcodeBindManager.text)
                             .keyboardType(.numberPad)
                             .multilineTextAlignment(.center)
-                            .frame(width: 150.0, height: 50)
+                            .frame(width: 150, height: 50)
                             .textFieldStyle(PlainTextFieldStyle())
+                            .keyboardType(.numberPad)
                             .cornerRadius(16)
                             .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.gray))
                         // Find Button
                         let view = ListView(zipcode: zipcodeBindManager.text)
                         NavigationLink(destination: view) {
                             Text("Find")
-                                .frame(minWidth: 100, maxWidth: 100, minHeight: 50, maxHeight: 50, alignment: .center)
+                                .frame(width: 100, height: 50)
                                 .foregroundColor(Color.white)
                                 .background(Color.black)
                                 .cornerRadius(10)
                         }.disabled(self.zipcodeBindManager.text.count == 0)
-                    }.padding(.top, 15.0)
+                    }
                     Spacer()
                     Spacer()
                 }
             }
-        }
+            .navigationTitle("")
+            .navigationBarHidden(true)
+        }.accentColor(.black)
     }
 }
 
