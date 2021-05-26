@@ -23,11 +23,19 @@ struct DetailView: View {
 
     var body: some View {
         VStack(alignment: .center) {
-            Text(station.name).fontWeight(.bold)
+            Text(station.name)
+                .fontWeight(.bold)
                 .font(.largeTitle)
-            Text("\(station.address1) \(station.city), \(station.state) \(station.zip)").fontWeight(.bold)
-            Text("\(station.phone)").fontWeight(.bold)
-            station.in_stock ? Text("In Stock").fontWeight(.bold) : Text("Out of Stock").fontWeight(.bold)
+                .multilineTextAlignment(.center)
+
+            Text("\(station.address1) \(station.city), \(station.state) \(station.zip)")
+                .fontWeight(.bold)
+            
+            Text("\(station.phone)")
+                .fontWeight(.bold)
+            
+            station.in_stock ? Text("In Stock").fontWeight(.bold).foregroundColor(.green) : Text("Out of Stock").fontWeight(.bold).foregroundColor(.red)
+            
             Map(coordinateRegion: $region, showsUserLocation: true,
                 annotationItems: [marker]) { marker in
                 marker.location

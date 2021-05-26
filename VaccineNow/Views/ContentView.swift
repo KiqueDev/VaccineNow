@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var zipcodeBindManager = ZipcodeBindManager(limit: 5)
+    
     var body: some View {
         NavigationView {
             ZStack {
