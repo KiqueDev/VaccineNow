@@ -7,58 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD78AE56258178B70089F798 /* ZipcodeBindManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */; };
-		CD78AE5C2583EC040089F798 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78AE5B2583EC040089F798 /* MapView.swift */; };
-		CD91959B25FFBD59007DC224 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91959A25FFBD59007DC224 /* ListView.swift */; };
-		CD9195A125FFC443007DC224 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9195A025FFC443007DC224 /* DetailView.swift */; };
-		CD9DA5F4257EA9700063EA39 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5F3257EA9700063EA39 /* Tests_iOS.swift */; };
-		CD9DA601257EA9700063EA39 /* VaccineNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5D8257EA9700063EA39 /* VaccineNowApp.swift */; };
-		CD9DA603257EA9700063EA39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9DA5D9257EA9700063EA39 /* ContentView.swift */; };
-		CD9DA605257EA9700063EA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9DA5DA257EA9700063EA39 /* Assets.xcassets */; };
-		CD9DA62225813BE20063EA39 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9DA62125813BE20063EA39 /* Launch Screen.storyboard */; };
-		CDD50CBE26050D7D00312237 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD50CBD26050D7D00312237 /* LocationManager.swift */; };
+		CDE133C0265E81B500E8D00C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE133BF265E81B500E8D00C /* AppDelegate.swift */; };
+		CDE133C2265E81B500E8D00C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE133C1265E81B500E8D00C /* SceneDelegate.swift */; };
+		CDE133C6265E81B700E8D00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE133C5265E81B700E8D00C /* Assets.xcassets */; };
+		CDE133C9265E81B700E8D00C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE133C8265E81B700E8D00C /* Preview Assets.xcassets */; };
+		CDE133CC265E81B700E8D00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE133CA265E81B700E8D00C /* LaunchScreen.storyboard */; };
+		CDE133D7265E81B700E8D00C /* VaccineNowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE133D6265E81B700E8D00C /* VaccineNowTests.swift */; };
+		CDE133E2265E81B700E8D00C /* VaccineNowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE133E1265E81B700E8D00C /* VaccineNowUITests.swift */; };
+		CDE1340B265E831700E8D00C /* ZipcodeBindManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13404265E831700E8D00C /* ZipcodeBindManager.swift */; };
+		CDE1340C265E831700E8D00C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13405265E831700E8D00C /* LocationManager.swift */; };
+		CDE1340D265E831700E8D00C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13407265E831700E8D00C /* DetailView.swift */; };
+		CDE1340E265E831700E8D00C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13408265E831700E8D00C /* ListView.swift */; };
+		CDE1340F265E831700E8D00C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13409265E831700E8D00C /* MapView.swift */; };
+		CDE13410265E831700E8D00C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1340A265E831700E8D00C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CD9DA5F0257EA9700063EA39 /* PBXContainerItemProxy */ = {
+		CDE133D3265E81B700E8D00C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD9DA5D3257EA96F0063EA39 /* Project object */;
+			containerPortal = CDE133B4265E81B500E8D00C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9DA5DE257EA9700063EA39;
-			remoteInfo = "VaccineNow (iOS)";
+			remoteGlobalIDString = CDE133BB265E81B500E8D00C;
+			remoteInfo = VaccineNow;
+		};
+		CDE133DE265E81B700E8D00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE133B4265E81B500E8D00C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE133BB265E81B500E8D00C;
+			remoteInfo = VaccineNow;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipcodeBindManager.swift; sourceTree = "<group>"; };
-		CD78AE5B2583EC040089F798 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		CD91959A25FFBD59007DC224 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		CD9195A025FFC443007DC224 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		CD9DA5D8257EA9700063EA39 /* VaccineNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineNowApp.swift; sourceTree = "<group>"; };
-		CD9DA5D9257EA9700063EA39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD9DA5DA257EA9700063EA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD9DA5DF257EA9700063EA39 /* VaccineNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9DA5E2257EA9700063EA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD9DA5E9257EA9700063EA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD9DA5EA257EA9700063EA39 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		CD9DA5EF257EA9700063EA39 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9DA5F3257EA9700063EA39 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		CD9DA5F5257EA9700063EA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD9DA5FE257EA9700063EA39 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		CD9DA600257EA9700063EA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD9DA62125813BE20063EA39 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		CDD50CBD26050D7D00312237 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CDE133BC265E81B500E8D00C /* VaccineNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE133BF265E81B500E8D00C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE133C1265E81B500E8D00C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDE133C5265E81B700E8D00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE133C8265E81B700E8D00C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDE133CB265E81B700E8D00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE133CD265E81B700E8D00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE133D2265E81B700E8D00C /* VaccineNowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineNowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE133D6265E81B700E8D00C /* VaccineNowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineNowTests.swift; sourceTree = "<group>"; };
+		CDE133D8265E81B700E8D00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE133DD265E81B700E8D00C /* VaccineNowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineNowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE133E1265E81B700E8D00C /* VaccineNowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineNowUITests.swift; sourceTree = "<group>"; };
+		CDE133E3265E81B700E8D00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE13404265E831700E8D00C /* ZipcodeBindManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipcodeBindManager.swift; sourceTree = "<group>"; };
+		CDE13405265E831700E8D00C /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CDE13407265E831700E8D00C /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CDE13408265E831700E8D00C /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CDE13409265E831700E8D00C /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CDE1340A265E831700E8D00C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD9DA5DC257EA9700063EA39 /* Frameworks */ = {
+		CDE133B9265E81B500E8D00C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD9DA5EC257EA9700063EA39 /* Frameworks */ = {
+		CDE133CF265E81B700E8D00C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE133DA265E81B700E8D00C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,151 +86,174 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD4320C22600F96700328863 /* Manager */ = {
+		CDE133B3265E81B500E8D00C = {
 			isa = PBXGroup;
 			children = (
-				CD78AE55258178B70089F798 /* ZipcodeBindManager.swift */,
-				CDD50CBD26050D7D00312237 /* LocationManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		CD4320C32600F97E00328863 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CD9DA5D9257EA9700063EA39 /* ContentView.swift */,
-				CD78AE5B2583EC040089F798 /* MapView.swift */,
-				CD91959A25FFBD59007DC224 /* ListView.swift */,
-				CD9195A025FFC443007DC224 /* DetailView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		CD9DA5D2257EA96F0063EA39 = {
-			isa = PBXGroup;
-			children = (
-				CD9DA5D7257EA9700063EA39 /* Shared */,
-				CD9DA5E1257EA9700063EA39 /* iOS */,
-				CD9DA5E8257EA9700063EA39 /* macOS */,
-				CD9DA5F2257EA9700063EA39 /* Tests iOS */,
-				CD9DA5FD257EA9700063EA39 /* Tests macOS */,
-				CD9DA5E0257EA9700063EA39 /* Products */,
+				CDE133BE265E81B500E8D00C /* VaccineNow */,
+				CDE133D5265E81B700E8D00C /* VaccineNowTests */,
+				CDE133E0265E81B700E8D00C /* VaccineNowUITests */,
+				CDE133BD265E81B500E8D00C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD9DA5D7257EA9700063EA39 /* Shared */ = {
+		CDE133BD265E81B500E8D00C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD9DA5D8257EA9700063EA39 /* VaccineNowApp.swift */,
-				CD4320C32600F97E00328863 /* Views */,
-				CD4320C22600F96700328863 /* Manager */,
-				CD9DA5DA257EA9700063EA39 /* Assets.xcassets */,
-				CD9DA62125813BE20063EA39 /* Launch Screen.storyboard */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		CD9DA5E0257EA9700063EA39 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD9DA5DF257EA9700063EA39 /* VaccineNow.app */,
-				CD9DA5EF257EA9700063EA39 /* Tests iOS.xctest */,
+				CDE133BC265E81B500E8D00C /* VaccineNow.app */,
+				CDE133D2265E81B700E8D00C /* VaccineNowTests.xctest */,
+				CDE133DD265E81B700E8D00C /* VaccineNowUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD9DA5E1257EA9700063EA39 /* iOS */ = {
+		CDE133BE265E81B500E8D00C /* VaccineNow */ = {
 			isa = PBXGroup;
 			children = (
-				CD9DA5E2257EA9700063EA39 /* Info.plist */,
+				CDE13402265E82FE00E8D00C /* APIService */,
+				CDE13403265E831700E8D00C /* Managers */,
+				CDE13406265E831700E8D00C /* Views */,
+				CDE133BF265E81B500E8D00C /* AppDelegate.swift */,
+				CDE133C1265E81B500E8D00C /* SceneDelegate.swift */,
+				CDE133C5265E81B700E8D00C /* Assets.xcassets */,
+				CDE133CA265E81B700E8D00C /* LaunchScreen.storyboard */,
+				CDE133CD265E81B700E8D00C /* Info.plist */,
+				CDE133C7265E81B700E8D00C /* Preview Content */,
 			);
-			path = iOS;
+			path = VaccineNow;
 			sourceTree = "<group>";
 		};
-		CD9DA5E8257EA9700063EA39 /* macOS */ = {
+		CDE133C7265E81B700E8D00C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CD9DA5E9257EA9700063EA39 /* Info.plist */,
-				CD9DA5EA257EA9700063EA39 /* macOS.entitlements */,
+				CDE133C8265E81B700E8D00C /* Preview Assets.xcassets */,
 			);
-			path = macOS;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CD9DA5F2257EA9700063EA39 /* Tests iOS */ = {
+		CDE133D5265E81B700E8D00C /* VaccineNowTests */ = {
 			isa = PBXGroup;
 			children = (
-				CD9DA5F3257EA9700063EA39 /* Tests_iOS.swift */,
-				CD9DA5F5257EA9700063EA39 /* Info.plist */,
+				CDE133D6265E81B700E8D00C /* VaccineNowTests.swift */,
+				CDE133D8265E81B700E8D00C /* Info.plist */,
 			);
-			path = "Tests iOS";
+			path = VaccineNowTests;
 			sourceTree = "<group>";
 		};
-		CD9DA5FD257EA9700063EA39 /* Tests macOS */ = {
+		CDE133E0265E81B700E8D00C /* VaccineNowUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CD9DA5FE257EA9700063EA39 /* Tests_macOS.swift */,
-				CD9DA600257EA9700063EA39 /* Info.plist */,
+				CDE133E1265E81B700E8D00C /* VaccineNowUITests.swift */,
+				CDE133E3265E81B700E8D00C /* Info.plist */,
 			);
-			path = "Tests macOS";
+			path = VaccineNowUITests;
+			sourceTree = "<group>";
+		};
+		CDE13402265E82FE00E8D00C /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		CDE13403265E831700E8D00C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CDE13404265E831700E8D00C /* ZipcodeBindManager.swift */,
+				CDE13405265E831700E8D00C /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CDE13406265E831700E8D00C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDE13407265E831700E8D00C /* DetailView.swift */,
+				CDE13408265E831700E8D00C /* ListView.swift */,
+				CDE13409265E831700E8D00C /* MapView.swift */,
+				CDE1340A265E831700E8D00C /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD9DA5DE257EA9700063EA39 /* VaccineNow (iOS) */ = {
+		CDE133BB265E81B500E8D00C /* VaccineNow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD9DA609257EA9700063EA39 /* Build configuration list for PBXNativeTarget "VaccineNow (iOS)" */;
+			buildConfigurationList = CDE133E6265E81B700E8D00C /* Build configuration list for PBXNativeTarget "VaccineNow" */;
 			buildPhases = (
-				CD9DA5DB257EA9700063EA39 /* Sources */,
-				CD9DA5DC257EA9700063EA39 /* Frameworks */,
-				CD9DA5DD257EA9700063EA39 /* Resources */,
+				CDE133B8265E81B500E8D00C /* Sources */,
+				CDE133B9265E81B500E8D00C /* Frameworks */,
+				CDE133BA265E81B500E8D00C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "VaccineNow (iOS)";
-			productName = "VaccineNow (iOS)";
-			productReference = CD9DA5DF257EA9700063EA39 /* VaccineNow.app */;
+			name = VaccineNow;
+			productName = VaccineNow;
+			productReference = CDE133BC265E81B500E8D00C /* VaccineNow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CD9DA5EE257EA9700063EA39 /* Tests iOS */ = {
+		CDE133D1265E81B700E8D00C /* VaccineNowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD9DA60F257EA9700063EA39 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = CDE133E9265E81B700E8D00C /* Build configuration list for PBXNativeTarget "VaccineNowTests" */;
 			buildPhases = (
-				CD9DA5EB257EA9700063EA39 /* Sources */,
-				CD9DA5EC257EA9700063EA39 /* Frameworks */,
-				CD9DA5ED257EA9700063EA39 /* Resources */,
+				CDE133CE265E81B700E8D00C /* Sources */,
+				CDE133CF265E81B700E8D00C /* Frameworks */,
+				CDE133D0265E81B700E8D00C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD9DA5F1257EA9700063EA39 /* PBXTargetDependency */,
+				CDE133D4265E81B700E8D00C /* PBXTargetDependency */,
 			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = CD9DA5EF257EA9700063EA39 /* Tests iOS.xctest */;
+			name = VaccineNowTests;
+			productName = VaccineNowTests;
+			productReference = CDE133D2265E81B700E8D00C /* VaccineNowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE133DC265E81B700E8D00C /* VaccineNowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE133EC265E81B700E8D00C /* Build configuration list for PBXNativeTarget "VaccineNowUITests" */;
+			buildPhases = (
+				CDE133D9265E81B700E8D00C /* Sources */,
+				CDE133DA265E81B700E8D00C /* Frameworks */,
+				CDE133DB265E81B700E8D00C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE133DF265E81B700E8D00C /* PBXTargetDependency */,
+			);
+			name = VaccineNowUITests;
+			productName = VaccineNowUITests;
+			productReference = CDE133DD265E81B700E8D00C /* VaccineNowUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD9DA5D3257EA96F0063EA39 /* Project object */ = {
+		CDE133B4265E81B500E8D00C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					CD9DA5DE257EA9700063EA39 = {
-						CreatedOnToolsVersion = 12.2;
+					CDE133BB265E81B500E8D00C = {
+						CreatedOnToolsVersion = 12.3;
 					};
-					CD9DA5EE257EA9700063EA39 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = CD9DA5DE257EA9700063EA39;
+					CDE133D1265E81B700E8D00C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CDE133BB265E81B500E8D00C;
+					};
+					CDE133DC265E81B700E8D00C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CDE133BB265E81B500E8D00C;
 					};
 				};
 			};
-			buildConfigurationList = CD9DA5D6257EA96F0063EA39 /* Build configuration list for PBXProject "VaccineNow" */;
+			buildConfigurationList = CDE133B7265E81B500E8D00C /* Build configuration list for PBXProject "VaccineNow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,28 +261,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CD9DA5D2257EA96F0063EA39;
-			productRefGroup = CD9DA5E0257EA9700063EA39 /* Products */;
+			mainGroup = CDE133B3265E81B500E8D00C;
+			productRefGroup = CDE133BD265E81B500E8D00C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD9DA5DE257EA9700063EA39 /* VaccineNow (iOS) */,
-				CD9DA5EE257EA9700063EA39 /* Tests iOS */,
+				CDE133BB265E81B500E8D00C /* VaccineNow */,
+				CDE133D1265E81B700E8D00C /* VaccineNowTests */,
+				CDE133DC265E81B700E8D00C /* VaccineNowUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD9DA5DD257EA9700063EA39 /* Resources */ = {
+		CDE133BA265E81B500E8D00C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9DA62225813BE20063EA39 /* Launch Screen.storyboard in Resources */,
-				CD9DA605257EA9700063EA39 /* Assets.xcassets in Resources */,
+				CDE133CC265E81B700E8D00C /* LaunchScreen.storyboard in Resources */,
+				CDE133C9265E81B700E8D00C /* Preview Assets.xcassets in Resources */,
+				CDE133C6265E81B700E8D00C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD9DA5ED257EA9700063EA39 /* Resources */ = {
+		CDE133D0265E81B700E8D00C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE133DB265E81B700E8D00C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,40 +301,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD9DA5DB257EA9700063EA39 /* Sources */ = {
+		CDE133B8265E81B500E8D00C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9DA603257EA9700063EA39 /* ContentView.swift in Sources */,
-				CD9195A125FFC443007DC224 /* DetailView.swift in Sources */,
-				CD78AE5C2583EC040089F798 /* MapView.swift in Sources */,
-				CDD50CBE26050D7D00312237 /* LocationManager.swift in Sources */,
-				CD91959B25FFBD59007DC224 /* ListView.swift in Sources */,
-				CD9DA601257EA9700063EA39 /* VaccineNowApp.swift in Sources */,
-				CD78AE56258178B70089F798 /* ZipcodeBindManager.swift in Sources */,
+				CDE133C0265E81B500E8D00C /* AppDelegate.swift in Sources */,
+				CDE1340F265E831700E8D00C /* MapView.swift in Sources */,
+				CDE1340D265E831700E8D00C /* DetailView.swift in Sources */,
+				CDE1340B265E831700E8D00C /* ZipcodeBindManager.swift in Sources */,
+				CDE1340E265E831700E8D00C /* ListView.swift in Sources */,
+				CDE13410265E831700E8D00C /* ContentView.swift in Sources */,
+				CDE1340C265E831700E8D00C /* LocationManager.swift in Sources */,
+				CDE133C2265E81B500E8D00C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD9DA5EB257EA9700063EA39 /* Sources */ = {
+		CDE133CE265E81B700E8D00C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9DA5F4257EA9700063EA39 /* Tests_iOS.swift in Sources */,
+				CDE133D7265E81B700E8D00C /* VaccineNowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE133D9265E81B700E8D00C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE133E2265E81B700E8D00C /* VaccineNowUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD9DA5F1257EA9700063EA39 /* PBXTargetDependency */ = {
+		CDE133D4265E81B700E8D00C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD9DA5DE257EA9700063EA39 /* VaccineNow (iOS) */;
-			targetProxy = CD9DA5F0257EA9700063EA39 /* PBXContainerItemProxy */;
+			target = CDE133BB265E81B500E8D00C /* VaccineNow */;
+			targetProxy = CDE133D3265E81B700E8D00C /* PBXContainerItemProxy */;
+		};
+		CDE133DF265E81B700E8D00C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE133BB265E81B500E8D00C /* VaccineNow */;
+			targetProxy = CDE133DE265E81B700E8D00C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CDE133CA265E81B700E8D00C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE133CB265E81B700E8D00C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		CD9DA607257EA9700063EA39 /* Debug */ = {
+		CDE133E4265E81B700E8D00C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,15 +410,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		CD9DA608257EA9700063EA39 /* Release */ = {
+		CDE133E5265E81B700E8D00C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,130 +465,176 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CD9DA60A257EA9700063EA39 /* Debug */ = {
+		CDE133E7265E81B700E8D00C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VaccineNow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = VaccineNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiquedev.VaccineNow;
-				PRODUCT_NAME = VaccineNow;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CD9DA60B257EA9700063EA39 /* Release */ = {
+		CDE133E8265E81B700E8D00C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VaccineNow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = VaccineNow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kiquedev.VaccineNow;
-				PRODUCT_NAME = VaccineNow;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CD9DA610257EA9700063EA39 /* Debug */ = {
+		CDE133EA265E81B700E8D00C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				INFOPLIST_FILE = VaccineNowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiquedev.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiquedev.VaccineNowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "VaccineNow (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaccineNow.app/VaccineNow";
 			};
 			name = Debug;
 		};
-		CD9DA611257EA9700063EA39 /* Release */ = {
+		CDE133EB265E81B700E8D00C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				INFOPLIST_FILE = VaccineNowTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kiquedev.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiquedev.VaccineNowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "VaccineNow (iOS)";
-				VALIDATE_PRODUCT = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaccineNow.app/VaccineNow";
+			};
+			name = Release;
+		};
+		CDE133ED265E81B700E8D00C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaccineNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiquedev.VaccineNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaccineNow;
+			};
+			name = Debug;
+		};
+		CDE133EE265E81B700E8D00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VaccineNowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiquedev.VaccineNowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaccineNow;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD9DA5D6257EA96F0063EA39 /* Build configuration list for PBXProject "VaccineNow" */ = {
+		CDE133B7265E81B500E8D00C /* Build configuration list for PBXProject "VaccineNow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD9DA607257EA9700063EA39 /* Debug */,
-				CD9DA608257EA9700063EA39 /* Release */,
+				CDE133E4265E81B700E8D00C /* Debug */,
+				CDE133E5265E81B700E8D00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD9DA609257EA9700063EA39 /* Build configuration list for PBXNativeTarget "VaccineNow (iOS)" */ = {
+		CDE133E6265E81B700E8D00C /* Build configuration list for PBXNativeTarget "VaccineNow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD9DA60A257EA9700063EA39 /* Debug */,
-				CD9DA60B257EA9700063EA39 /* Release */,
+				CDE133E7265E81B700E8D00C /* Debug */,
+				CDE133E8265E81B700E8D00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD9DA60F257EA9700063EA39 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		CDE133E9265E81B700E8D00C /* Build configuration list for PBXNativeTarget "VaccineNowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD9DA610257EA9700063EA39 /* Debug */,
-				CD9DA611257EA9700063EA39 /* Release */,
+				CDE133EA265E81B700E8D00C /* Debug */,
+				CDE133EB265E81B700E8D00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE133EC265E81B700E8D00C /* Build configuration list for PBXNativeTarget "VaccineNowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE133ED265E81B700E8D00C /* Debug */,
+				CDE133EE265E81B700E8D00C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD9DA5D3257EA96F0063EA39 /* Project object */;
+	rootObject = CDE133B4265E81B500E8D00C /* Project object */;
 }
