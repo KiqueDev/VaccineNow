@@ -8,11 +8,12 @@
 import UIKit
 
 class APIService {
+    let locationManager: LocationManager = LocationManager()
     private let baseURL = "https://api.us.castlighthealth.com/vaccine-finder/v1/provider-locations/search?medicationGuids=779bfe52-0dd8-4023-a183-457eb100fccc,a84fb9ed-deb4-461c-b785-e17c782ef88b,784db609-dc1f-45a5-bad6-8db02e79d44f"
     
     func loadData(zipcode: String, completion: @escaping (Response) -> Void) {
         // Conver zipcode to lat and long
-        LocationManager.convertZip(zip: zipcode) { location in
+        locationManager.convertZip(zip: zipcode) { location in
             if let location = location {
                 guard let url = URL(string: self.baseURL + "&lat=\(location.lat)&long=\(location.long)&radius=10") else {
                     print("Invalid URL")

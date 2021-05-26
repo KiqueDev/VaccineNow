@@ -46,6 +46,7 @@ struct ContentView: View {
             }
             .navigationTitle("")
             .navigationBarHidden(true)
+            .navigationBarTitleDisplayMode(.inline)
         }.accentColor(.black)
     }
 }
