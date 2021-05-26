@@ -39,9 +39,7 @@ struct DetailView: View {
                 marker.location
             }
             .edgesIgnoringSafeArea(.all)
-            .onAppear(){
-                setLocations()
-            }
+            .onAppear(perform: setLocations)
         }
     }
     
