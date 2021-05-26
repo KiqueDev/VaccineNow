@@ -25,6 +25,7 @@
 		CDE13431265E8A1E00E8D00C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13430265E8A1E00E8D00C /* Location.swift */; };
 		CDE13443265E99B000E8D00C /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13442265E99B000E8D00C /* LoaderView.swift */; };
 		CDE1344F265E9D1800E8D00C /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1344E265E9D1800E8D00C /* View+Extension.swift */; };
+		CDE1345A265ED3C600E8D00C /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE13459265ED3C600E8D00C /* Marker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		CDE13430265E8A1E00E8D00C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		CDE13442265E99B000E8D00C /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		CDE1344E265E9D1800E8D00C /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		CDE13459265ED3C600E8D00C /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,7 @@
 				CDE133BF265E81B500E8D00C /* AppDelegate.swift */,
 				CDE133C1265E81B500E8D00C /* SceneDelegate.swift */,
 				CDE1344D265E9D0300E8D00C /* Extensions */,
-				CDE1341A265E891300E8D00C /* Model */,
+				CDE1341A265E891300E8D00C /* Models */,
 				CDE13402265E82FE00E8D00C /* APIService */,
 				CDE13403265E831700E8D00C /* Managers */,
 				CDE13406265E831700E8D00C /* Views */,
@@ -188,14 +190,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		CDE1341A265E891300E8D00C /* Model */ = {
+		CDE1341A265E891300E8D00C /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				CDE1341B265E892C00E8D00C /* Station.swift */,
 				CDE13423265E894500E8D00C /* Response.swift */,
 				CDE13430265E8A1E00E8D00C /* Location.swift */,
+				CDE13459265ED3C600E8D00C /* Marker.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CDE13441265E99A300E8D00C /* LoaderView */ = {
@@ -357,6 +360,7 @@
 				CDE1344F265E9D1800E8D00C /* View+Extension.swift in Sources */,
 				CDE1340C265E831700E8D00C /* LocationManager.swift in Sources */,
 				CDE133C2265E81B500E8D00C /* SceneDelegate.swift in Sources */,
+				CDE1345A265ED3C600E8D00C /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

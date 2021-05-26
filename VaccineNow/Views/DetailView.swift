@@ -8,11 +8,6 @@
 import SwiftUI
 import MapKit
 
-struct Marker: Identifiable {
-    let id = UUID()
-    var location: MapMarker
-}
-
 struct DetailView: View {
     let locationManager: LocationManager = LocationManager()
     let station: Station
