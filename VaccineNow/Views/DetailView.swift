@@ -16,7 +16,7 @@ struct Marker: Identifiable {
 struct DetailView: View {
     let locationManager: LocationManager = LocationManager()
     let station: Station
-    @State var marker: Marker = Marker(location: MapMarker(coordinate: CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0), tint: .red))
+    @State var marker: Marker = Marker(location: MapMarker(coordinate: CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0), tint: .black))
     @State var region: MKCoordinateRegion = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0),
         span: MKCoordinateSpan(latitudeDelta: 0.0, longitudeDelta: 0.0)
@@ -58,7 +58,7 @@ struct DetailView: View {
                 center: CLLocationCoordinate2D(latitude: location.lat, longitude: location.long),
                 span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
             )
-            self.marker = Marker(location: MapMarker(coordinate: CLLocationCoordinate2D(latitude: location.lat, longitude: location.long), tint: .red))
+            self.marker = Marker(location: MapMarker(coordinate: CLLocationCoordinate2D(latitude: location.lat, longitude: location.long), tint: .black))
         }
     }
 }
