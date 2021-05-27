@@ -20,6 +20,7 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .font(.title)
                         .multilineTextAlignment(.center)
+                        .frame(width: 300)
                     HStack {
                         // Textfield zipcode
                         TextField("Enter zipcode", text: $zipcodeBindManager.text)
