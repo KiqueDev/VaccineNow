@@ -43,7 +43,7 @@ struct DetailView: View {
         }
         .toolbar {
             // BUG on swiftui where the back button dissapears
-            ToolbarItemGroup(placement: .navigationBarLeading) {
+            ToolbarItem(placement: .navigationBarLeading) { // HACK to fix above
                 Button(action: {}) {}
             }
             ToolbarItemGroup(placement: .navigationBarTrailing) {
