@@ -41,6 +41,18 @@ struct DetailView: View {
             .edgesIgnoringSafeArea(.all)
             .onAppear(perform: setLocations)
         }
+        .toolbar {
+            // BUG on swiftui where the back button dissapears
+            ToolbarItemGroup(placement: .navigationBarTrailing) {
+                Button(action: actionSheet) {
+                    Image(systemName: "square.and.arrow.up")
+                }
+
+                Button(action: phoneCall) {
+                    Image(systemName: "phone")
+                }
+            }
+        }
     }
     
     private func setLocations(){
@@ -53,5 +65,20 @@ struct DetailView: View {
             )
             self.marker = Marker(location: MapMarker(coordinate: CLLocationCoordinate2D(latitude: location.lat, longitude: location.long), tint: .black))
         }
+    }
+    
+    private func actionSheet() {
+        let place = station.name
+        let address = "\(station.address1) \(station.city), \(station.state) \(station.zip)"
+        let phone = station.phone
+        let activityVC = UIActivityViewController(activityItems: [place, address, phone], applicationActivities: nil)
+        UIApplication.shared.windows.first?.rootViewController?.present(activityVC, animated: true, completion: nil)
+    }
+    
+    private func phoneCall() {
+        let telephone = "tel://"
+        let formattedString = telephone + station.phone
+        guard let url = URL(string: formattedString) else { return }
+        UIApplication.shared.open(url)
     }
 }

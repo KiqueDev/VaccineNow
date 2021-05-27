@@ -34,6 +34,7 @@ struct ContentView: View {
                         let view = ListView(zipcode: zipcodeBindManager.text)
                         NavigationLink(destination: view) {
                             Text("Find")
+                                .fontWeight(.bold)
                                 .frame(width: 100, height: 50)
                                 .foregroundColor(Color.white)
                                 .background(Color.black)
