@@ -10,7 +10,7 @@ import Contacts
 import CoreLocation
 import MapKit
 
-class LocationManager {
+struct LocationManager {
     let geocoder = CLGeocoder()
     let postalAddress = CNMutablePostalAddress()
     
