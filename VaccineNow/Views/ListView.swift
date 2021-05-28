@@ -28,9 +28,11 @@ struct ListView: View {
                 }.navigationBarTitle(Text("Stations"))
             }
         }.onAppear {
-            apiService.loadData(zipcode: zipcode) { response in
-                self.hideLoader = true
-                self.stations = response.providers
+            if self.stations.isEmpty {
+                apiService.loadData(zipcode: zipcode) { response in
+                    self.hideLoader = true
+                    self.stations = response.providers
+                }
             }
         }
     }
