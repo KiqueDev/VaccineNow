@@ -1,2 +1,4 @@
 # VaccineNow
-https://github.com/KiqueDev/VaccineNow/blob/main/Screen%20Recording%202021-06-15%20at%203.54.48%20PM.mov
+
+https://user-images.githubusercontent.com/3495353/122115360-64b07e00-cdf2-11eb-8527-8870097a6364.mov
+
